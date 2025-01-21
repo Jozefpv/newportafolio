@@ -1,0 +1,56 @@
+.contactGlobalContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contactContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.contactTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.ContactDescription{
+    font-size: 18px;
+}
+
+.emailContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.emailDirection{
+    font-size: 25px;
+}
+
+
+.line {
+    height: 60px;
+    width: 2px;
+    background-color: #A6A001;
+}
+
+@media screen and (max-width: 768px) {
+    .contactTitle {
+        font-size: 40px;
+    }
+
+    .emailDirection{
+        font-size: 20px;
+    }
+}

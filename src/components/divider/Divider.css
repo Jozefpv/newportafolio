@@ -1,0 +1,13 @@
+.dividerContainerRight{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    background: linear-gradient(to left, black 80%, #A6A001 20%);
+}
+
+.dividerContainerLeft{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    background: linear-gradient(to right, black 80%, #A6A001 20%);
+}
