@@ -2,8 +2,7 @@ import React from 'react';
 import Pic from './pic.png';
 import './Me.css';
 import Reveal from '../reveal/Reveal';
-import myResumePDF from '../../assets/docs/JozefCV.pdf'; 
-
+import myResumePdf from './../../assets/docs/JozefCV.pdf'
 
 function Me() {
   return (
@@ -30,7 +29,7 @@ function Me() {
                 challenges, and finding ways to grow both personally and
                 professionally.
               </p>
-              <a href={myResumePDF} target="_blank" rel="noopener noreferrer">
+              <a href={myResumePdf} target="_blank" rel="noopener noreferrer">
                 <button className="myResumeButton">My resume</button>
             </a>
              
@@ -40,7 +39,6 @@ function Me() {
         </div>
 
 
-        {/* Contenedor de la imagen sin animación */}
         <div className="imageContainer">
           <div className="image-wrapper">
             <div className="blur-background"></div>

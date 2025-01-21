@@ -23,16 +23,16 @@ function Navbar() {
     <div className={`navbarContainer ${scrolled ? 'navbarHidden' : ''}`}>
       <ul className="optionsContainer">
         <li className='option'>
-          <Link to="me" smooth={true} duration={500}>Me</Link>
+          <Link to="meSection" smooth={true} duration={500}>Me</Link>
         </li>
         <li className='option'>
-          <Link to="projects" smooth={true} duration={500}>Projects</Link>
+          <Link to="projectsSection" smooth={true} duration={500}>Projects</Link>
         </li>
         <li className='option'>
-          <Link to="experience" smooth={true} duration={500}>Experience</Link>
+          <Link to="experienceSection" smooth={true} duration={500}>Experience</Link>
         </li>
         <li className='option'>
-          <Link to="contact" smooth={true} duration={500}>Contact</Link>
+          <Link to="contactSection" smooth={true} duration={500}>Contact</Link>
         </li>
       </ul>
     </div>
