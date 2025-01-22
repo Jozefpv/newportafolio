@@ -26,10 +26,10 @@ function Navbar() {
           <Link to="meSection" smooth={true} duration={500}>Me</Link>
         </li>
         <li className='option'>
-          <Link to="projectsSection" smooth={true} duration={500}>Projects</Link>
+          <Link to="experienceSection" smooth={true} duration={500}>Experience</Link>
         </li>
         <li className='option'>
-          <Link to="experienceSection" smooth={true} duration={500}>Experience</Link>
+          <Link to="projectsSection" smooth={true} duration={500}>Projects</Link>
         </li>
         <li className='option'>
           <Link to="contactSection" smooth={true} duration={500}>Contact</Link>
