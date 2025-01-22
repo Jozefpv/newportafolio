@@ -14,7 +14,7 @@ const Experience = () => {
             techStack: ["Angular", ".Net", "SQL Server", "Azure"]
         },
         {
-            title: "Desarrollador BackEnd",
+            title: "BackEnd Developer",
             company: "Noray",
             period: "June 2023 - January 2024",
             location: "Canary Islands",
